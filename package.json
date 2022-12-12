@@ -1,0 +1,39 @@
+{
+    "name": "wdio-utam-service",
+    "version": "1.2.2",
+    "description": "WebDriverIO custom service that provides UTAM JS integration",
+    "homepage": "https://utam.dev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/salesforce/utam-js.git",
+        "directory": "packages/wdio-utam-service"
+    },
+    "bugs": {
+        "url": "https://github.com/salesforce/utam-js/issues"
+    },
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "license": "MIT",
+    "files": [
+        "build/**/*.js",
+        "build/**/*.d.ts"
+    ],
+    "dependencies": {
+        "utam": "1.2.2"
+    },
+    "devDependencies": {
+        "@wdio/types": "^7.25.1"
+    },
+    "keywords": [
+        "utam",
+        "wdio",
+        "wdio-service"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">= 14.15"
+    },
+    "gitHead": "8176d206311c2963e8be815dea1df10b0733e20a"
+}
